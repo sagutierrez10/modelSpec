@@ -4,9 +4,9 @@ RSpec.describe User do
   context "With valid attributes" do 
     it "should save" do 
       user = User.new(
-        first_name: 'shane',
-        last_name: 'chang',
-        email: 'schang@codingdojo.com'
+        first_name: 'Johnny',
+        last_name: 'Bravo',
+        email: 'jbravo@codingdojo.com'
       )
       expect(user).to be_valid
     end
